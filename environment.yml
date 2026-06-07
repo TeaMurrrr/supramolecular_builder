@@ -1,0 +1,14 @@
+name: supra_env
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - crest
+  - libblas[build="*mkl"]
+  - openbabel
+  - python=3.11
+  - rdkit
+  - vina
+  - xtb
+  - pip:
+    - vina==1.2.7
